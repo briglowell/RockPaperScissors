@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="container-fluid bg-danger">
+    <div class="row pt-3">
+      <div class="col-12 text-center">
+        <h1>RockPaperScissors!</h1>
+      </div>
+    </div>
+  </header>
+
+  <main class="container-fluid">
+    <div class="row justify-content-center text-center bg-dark text-light py-4">
+      <div class="col-6">
+        <h2>Now Let's Get Ready to Rumble!</h2>
+      </div>
+      <div class="col-12 py-2 d-flex justify-content-center justify-content-space-around align-items-center">
+        <div class="col">
+          <p>PlayerScore:</p>
+          <p id="player-score">0</p>
+        </div>
+        <div class="col-6">
+          <img class="img-fluid"
+            src="https://us.123rf.com/450wm/lightfieldstudios/lightfieldstudios1904/lightfieldstudios190406983/120877809-partial-view-of-two-boxers-in-boxing-gloves-touching-hands-on-black-background.jpg?ver=6"
+            alt="">
+        </div>
+        <div class="col text-center">
+          <p>ComputerScore: </p>
+          <p id="comp-score">0</p>
+        </div>
+      </div>
+      <div class="col-12">
+        <h6>Select an option to see if you can beat the computer.</h6>
+      </div>
+      <div id="player" class="col-12 mt-2">
+        <button id="rock" class="btn btn-light" onclick="play(0)">Rock</button>
+        <button id="paper" class="btn btn-light" onclick="play(1)">Paper</button>
+        <button id="scissors" class="btn btn-light" onclick="play(2)">Scissors</button>
+      </div>
+      <div class="col-12 mt-2">
+        <button id="bazooka" class="btn btn-light" onclick="play(10000)">Bazooka</button>
+      </div>
+      <!-- <div id="computer" class="col">
+
+      </div> -->
+    </div>
+
+    <div class="row justify-content-center text-center">
+      <div class="col-6">
+        <button type="submit" class="btn btn-danger mt-2" onclick="cheatCheck()">Cheat</button>
+      </div>
+    </div>
+
+  </main>
+
+
+  <footer class="container-fluid bg-danger">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p>Brought to you in part by your local library and PBS kids like you. Thank you.</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script src="app.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
