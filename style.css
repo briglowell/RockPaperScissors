@@ -19,3 +19,11 @@ footer {
 #bazooka {
   visibility: hidden;
 }
+
+.font-marker {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.font-rock-salt {
+  font-family: 'Rock Salt', cursive;
+}

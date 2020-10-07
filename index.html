@@ -12,13 +12,14 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rock+Salt&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header class="container-fluid bg-danger">
     <div class="row pt-3">
-      <div class="col-12 text-center">
-        <h1>RockPaperScissors!</h1>
+      <div class="col-12 text-center font-marker">
+        <h1>RockPaperScissors</h1>
       </div>
     </div>
   </header>
@@ -26,11 +27,11 @@
   <main class="container-fluid">
     <div class="row justify-content-center text-center bg-dark text-light py-4 mb-3">
       <div class="col-6 mb-2">
-        <h2>Now let's get ready to rumble!</h2>
+        <h2 class="font-rock-salt">Now let's get ready to rumble!</h2>
       </div>
       <div class="col-12 py-2 d-flex justify-content-center justify-content-space-around align-items-center my-3">
         <div class="col offset-1">
-          <p>PlayerScore:</p>
+          <p class="font-rock-salt">Player</p>
           <p id="player-score">0</p>
         </div>
         <div class="col-6">
@@ -39,13 +40,13 @@
             alt="">
         </div>
         <div class="col text-center">
-          <p>ComputerScore: </p>
+          <p class="font-rock-salt">Computer </p>
           <p id="comp-score">0</p>
         </div>
         <div class="col-1"></div>
       </div>
       <div class="col-12 mb-3">
-        <h6>Select an option to see if you can beat the computer.</h6>
+        <h6 class="font-rock-salt">Select your weapon</h6>
       </div>
       <div id="player" class="col-12 mt-2 mt-3">
         <button id="rock" class="btn btn-light" onclick="play(0)">Rock</button>
